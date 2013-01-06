@@ -5,7 +5,7 @@ jQuery plugin to handle ajax forms and uploads
 
 **Usage**
 
-    // ajaxify a form
+    // ajaxify a form (also <input type="file">)
 
     $("form").ajaxform({
         // events
@@ -17,8 +17,8 @@ jQuery plugin to handle ajax forms and uploads
         "readystatechange": function(){}
     });
 
-    // enable an element to upload a file on drag'n drop
-    
+    // enable an element to upload files on drag'n drop
+
     $("#myelement").uploadOnDrag({
         "action": '',
         "single": false,
